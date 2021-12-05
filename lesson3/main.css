@@ -1,10 +1,23 @@
+.wrap {
+    background:gray;
+    width: 1600px;
+    height: 700px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
 .box{
-    wight: 300px;
-    height: 200px;
+    width: 200px;
+    height: 300px;
 }
 .a {
     background: aquamarine;
+    flex-grow: 2;
 }
 .b {
     background: blueviolet;
+    align-self: center;
+    flex-grow: 5;
 }
