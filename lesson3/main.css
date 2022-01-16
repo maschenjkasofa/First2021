@@ -4,20 +4,18 @@
     height: 700px;
     display: flex;
     justify-content: flex-start;
-    align-items: stretch;
+    align-items: center;
     flex-wrap: wrap;
     column-gap: 20px;
 }
 .box{
-    width: 200px;
+    width: 300px;
     height: 300px;
 }
 .a {
     background: aquamarine;
-    flex-grow: 2;
 }
 .b {
     background: blueviolet;
     align-self: center;
-    flex-grow: 5;
 }
